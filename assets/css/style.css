@@ -1,0 +1,124 @@
+body{
+  background-image: url("../Images/Backgorund.gif")
+}
+
+
+.justify-content-end {
+  -ms-flex-pack: end!important;
+  justify-content: flex-end!important;
+  height: 0px;
+  background: transparent;
+  box-shadow: 0 13px 20px 70px rgba(250, 240, 250, 0.2)
+  
+}
+
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  height: 70px;
+  width: 160px;
+  margin-top: 20px;
+}
+
+li:hover {
+  background-color: rgb(75, 88, 94);
+}
+
+
+
+
+  ul li:hover {
+  background-color: transparent;
+
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.hak{
+    margin-left: 240px;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: none;
+    color: #a5a5a5;
+    text-shadow: 6px 1px 0px #545497, 9px 0px 8px white, 20px 5px 20px #ffffff;
+}
+
+
+#bodyContent {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#mainContent {
+  width: 1000px;
+  padding: 40px 30px 40px 30px;
+  margin-bottom: 50px;
+  background-color: #09061c00;
+  box-shadow: 4px 4px 15px 2px #333333;
+  float: left;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  margin-top: -270px;
+
+}
+
+#profilePic {
+  width: 183px;
+  height: 240px;
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+
+
+h1{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+
+footer {
+  background-color: #0000005c;
+  line-height: 80px;
+  color: #CCCCCC;
+  text-align: center;
+  box-shadow: 0 13px 20px 24px rgba(250, 240, 250, 0.2)
+}
+
+footer, .push {
+  height: 80px;
+  margin-top: 407px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+p{
+  margin-top: -22px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+
+
